@@ -25,12 +25,7 @@ let package = Package(
         .target(
             name: "AxisTooltip",
             dependencies: [],
-            path: "Sources"
-        ),
-
-        .testTarget(
-            name: "AxisTooltipTests",
-            dependencies: ["AxisTooltip"]
+            path: "Sources/AxisTooltip"
         )
     ]
 )
